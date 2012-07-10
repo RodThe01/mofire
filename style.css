@@ -1,0 +1,59 @@
+/* MOfire CSS Frame Development */
+
+/* Test Styling for corner block styling. */
+
+/* 
+
+{
+width:100px;
+height:100px;
+background:red;
+left:10px;
+top:100px;
+position:absolute;
+}
+
+*/
+
+.corner-block{
+width:50%;
+height:50%;
+margin:none;
+padding:none;
+border:none;
+position:absolute;
+}
+
+#base{
+position:static;
+}
+
+#top-left{
+background:blue;
+top:10px;
+left:10px;
+
+}
+
+#top-right{
+background: green;
+top:10px;
+right:10px;
+
+}
+
+#bottom-left{
+background: red;
+bottom:10px;
+left:10px;
+
+
+}
+
+#bottom-right{
+background: gray;
+bottom:10px;
+right:10px;
+
+}
+
